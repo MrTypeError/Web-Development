@@ -1,0 +1,17 @@
+
+body{
+    background-image: url("/Images/Wb.jpg");
+}
+h2{
+    
+    color: coral;
+    background-color: cornflowerblue;
+}
+p{
+
+    color: rgb(150, 27, 231);
+
+}
+li{
+    align-items: center;
+}

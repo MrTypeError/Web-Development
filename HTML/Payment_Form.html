@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment_Form.css">
+    <title> PAYMENT FORM</title>   
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <h1 class="mainHeading">Payment Form</h1>
+        <h2>Contact Information </h2>
+        <p> Name Of the Card Holder :<input type="text" name="name" placeholder="FirstName LastName"></p>
+        <p> Date Of Birth (DOB) : <input type="date" name="DOB" id="DOB"></p>
+        <fieldset>
+        <p>
+            <legend> <b> GNEDER</b></legend> 
+            Male <input type="radio" name="gender"id="Male">
+            Female <input type="radio" name="Female"id="Female">
+            Others <input type="radio" name="Others "id="Others">
+
+        </p>
+        </fieldset>
+        <br>
+        <img class="Photo" src="Payment_icons.png" alt="Testing Image" style="padding: 10px"  >
+        <p> Adress : <textarea name="Adress" id="Adress" cols="100" rows="20" placeholder="Enter you address According to your Aadhar Card"></textarea></p>
+        <p> Email :<input type="email" name="Email" id="Email" placeholder="xyasdffsdad@xyz.com"></p>
+        <p> Pincode :<input type="number" name="Pincode" id="Pincode" placeholder="700001"></p>
+        <h2 style="font-style: oblique; text-align: center;">Card Details</h2>
+        <p>Card Type
+            <select name="card_type" id="card_type">
+            <option value="">----Select The Card Type----</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastro">Maestro</option>
+            <option value="Master Card">Master Card </option>
+        </select>
+        </p>
+        <p>
+            Card Number : <input type="Card_number" name="Card_number" id="Card_number" placeholder="0000-0000-0000-0000">
+        </p>
+        <p>
+            Expiary Date :<input type="Date" name="Exp_Date" id="Exp_Date">
+        </p>
+        <p>
+            CVV :<input type="password" name="Passcode" id="Passcode" placeholder="123">
+        </p>
+        <p>
+             <input type="button" value=" pay now ">
+        </p>
+
+
+    </form>
+</div>
+</body>
+</html>

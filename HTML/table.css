@@ -1,0 +1,29 @@
+caption{
+  font-weight: 900;
+  caption-side: bottom;
+}
+h1 {
+  
+  text-align: center;
+  color: rgb(148, 22, 43);
+}
+table,
+th,
+tr,
+td{
+  border: thick rgb(36, 240, 17) solid;
+  padding: 30px;
+  border-collapse:collapse;
+  border-spacing: 100px;
+  table-layout: fixed;
+  width: 100%;
+}
+th {
+  background-color: rgba(127, 203, 212, 0.856);
+  color: rgb(0, 17, 248);
+}
+td{
+  color: black;
+  background-color: rgba(240, 9, 9, 0.705);
+}
+

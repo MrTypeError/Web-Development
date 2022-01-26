@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 30px;
+
+}
+.container{
+    background-color: lightgrey;
+    padding: 5px 20px 15px 20px;
+    border: 5px solid rgb(98, 241, 98);
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="Card_number"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 3px solid lightpink;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+
+    background-color: lightgrey;
+    border: 3px solid lightpink;
+    border-radius: 10px;
+
+}
+
+.Photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black dashed;
+    border-radius: 20px;
+    width: 50%;
+    height: 5%;
+    padding: 100%;
+    box-sizing: content-box;
+}
+
+/*.Photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black dashed;
+    border-radius: 20px;
+    width: 50%;
+    padding: 100%;
+    
+
+
+}*/
+
+.mainHeading{
+    text-align: center;
+}
+input[type="button"]{
+    font-weight: 800;
+    font-size: 20px;
+    text-transform:capitalize;
+    background-color: rgb(35, 114, 179);
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="button"]:hover{
+    background-color: rgb(11, 192, 11);
+}

@@ -1,0 +1,49 @@
+
+*{
+    background-color: rgba(11, 238, 132, 0.664);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgba(207, 63, 26, 0.849);
+    background-color: rgba(180, 52, 219, 0.692);
+    text-transform: capitalize;
+}
+
+
+
+h2#one{
+    background-color: rgba(235, 213, 14, 0.815);
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(224, 24, 9);
+    text-align: center;
+}
+
+li em{
+    
+    font-style: inherit;
+    font-weight: 500;
+    
+    list-style-type: square;
+    list-style: georgian;
+    size: 20%;
+}
+
+li{
+    list-style: square;
+    text-align: center;
+}
+
+li[class="a"]{
+    
+    color: rgb(6, 131, 131);
+    size: 300%;
+    list-style: upper-alpha;
+    font-family: 'Mochiy Pop One', sans-serif;
+    
+}
+li[class~=b]{
+    color: yellow;
+    size: 20px;
+}

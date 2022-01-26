@@ -1,0 +1,31 @@
+* {
+  background-color: rgb(255, 209, 139);
+  margin: 10px;
+  padding: 2px;
+}
+h1 {
+    text-shadow: rgb(97, 252, 50) 1px 0 10px;;
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+}
+h3 {
+    text-shadow: greenyellow 2px 0.2px 10px;
+    text-decoration: green wavy underline;
+    text-align: center;
+    color: rgb(32, 99, 19);
+}
+p {
+    border:thick solid black;
+    border-radius: 15px;
+    margin: 2ex;
+    padding: 20px ;
+    text-align: center;
+    color: rgb(71, 53, 29);
+    font-weight: bolder;
+    font-size: larger;
+
+}
+@media screen {
+    
+}

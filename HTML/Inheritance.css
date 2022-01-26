@@ -1,0 +1,11 @@
+body{
+    padding: 30px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.first a{
+    color: inherit;
+}
+.second a{
+    color:initial;
+}

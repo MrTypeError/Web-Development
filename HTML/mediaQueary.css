@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: 14px Georgia;
+    background: #ccc;
+}
+#field-wap{
+
+    width: 70%;
+    margin: 60px auto;
+    padding: 20px;
+    background: white;
+    overflow: hidden;
+}
+h1{
+    font: 24px Georgia;
+}
+p{
+    margin: 0 0 20px 0;
+}
+#contact {
+    width: 35%;
+    float: left;
+}
+
+.contact ul{
+    list-style: none;
+}
+.contact ul li a{
+    color: brown;
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
+}
+@media all and (min-width:1000px){
+    .contact ul li a:after{
+        content: "  ("attr(data-contact)")";
+        /* content: "  ("attr(data-phone)")"; */
+        color: tomato;
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font: italic large;
+    }
+}
+@media all and (min-width:1000px){
+    .contact1 ul li a:after{
+        content: "  ("attr(data-email2)")";
+        color: tomato;
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font: italic large;
+    }
+} 
+@media all and (min-width:1000px){
+    .contact2 ul li a:after{
+        content: "  ("attr(data-phone)")";
+        color: tomato;
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font: italic large;
+    }
+}
+ @media all and (min-width:1000px){
+    .contact3 ul li a:after{
+        content: "  ("attr(data-phone)")";
+        color: tomato;
+        font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font: italic large;
+    }
+}
+@media all and (min-width:700) and (max-width:999px) {
+    .Number ul a:before{
+        content: "Email";
+        font-style: italic;
+        color: turquoise;
+    }    
+}
+
+.container{
+    width: 65%;
+    float: right;
+}
