@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows:repeat(3,1fr) ; repeat(no. of rows , width)*/ 
+    /* grid-gap: 10px; it is used to give gap between the bojects it will change the length of the boject it will change the width of the object */
+    grid-auto-rows: 100px; 
+    grid-auto-columns: 500px; 
+    /* grid-auto-rows: minmax(100px,auto); take and minimum height and then the max height */
+    grid-template-columns: repeat(auto-fill,minmax(200px,3fr));
+    grid-gap: 50px;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+.class{
+    background-color: aqua;
+    border: 2px greenyellow solid;
+    border-radius: 10px;
+}
+/* #box-3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
+.parent-nested-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.nestedContainer{
+    border: 5px solid green;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#box-1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
