@@ -1,15 +1,40 @@
 .parent{
+    border-radius: 20px;
     background-color: aqua;
     height: 400px;
     width: 400px;
 }
 
 .child{
+    border-radius: 50%;
     background-color: red;
     height: 50%;
     width: 50%;
+    animation: NewAnimation 2s ease-in infinite alternate;
+    /* animation: #name #duration #type_of_animation #repeattion #animation_direction #animation-play-state #animation delay */
 }
-
+ 
 .parent:hover .child{
-   
+    animation-play-state: paused;
+}
+@keyframes NewAnimation{
+    0%{
+        background-color: rgb(255, 0, 0);
+        transform: translateX(0%);
+
+    }
+    33% {
+        background-color: green;
+        transform: translateY(100%);
+
+    }
+    66%{
+        background-color: yellow;
+        transform: translateY(100%) translateX(100%);
+
+    }
+    100%{
+        background-color: chartreuse;
+        transform: translateX(100%);
+    }
 }

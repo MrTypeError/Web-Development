@@ -18,6 +18,23 @@
             height: 20rem;
             background-color:pink ;
         }
+        .parent{
+        background-color: aqua;
+        height: 400px;
+        width: 400px;
+        }
+
+        .child{
+            background-color: red;
+            height: 50%;
+            width: 50%;
+            transition: transform 2s ease-in-out 1ms ;
+        }
+        
+        .parent:hover .child{
+            transform: translateY(100%);
+    
+        }
 
     </style>
 </head>
