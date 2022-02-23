@@ -1,0 +1,14 @@
+*{
+    margin: 10px;
+}
+.container{
+    border: 10px solid black;
+}
+/*.container-fluid{ 
+    border: 10px solid black;
+}*/
+
+.row{
+    border: 10px solid rosybrown;
+
+}

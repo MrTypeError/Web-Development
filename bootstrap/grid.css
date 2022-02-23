@@ -1,0 +1,50 @@
+.container{
+    border-radius: 2px;
+    border: 1px solid black;
+}
+/* .row{
+    border: 5px solid red;
+
+} */
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,
+.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    /* border: 5px solid greenyellow; */
+}
+#header{
+    padding: 10px;
+    background-color: orange;
+}
+
+#menu ul{
+    list-style:none;
+    margin: 0px;
+}
+
+#menu{
+    padding: 10px;
+    background-color: yellowgreen;
+}
+#menu ul li{
+    color: blueviolet;
+    padding: 2px;
+    display: inline-block;
+}
+
+#content{
+    padding: 1rem;
+    background-color: rgb(132, 184, 230);
+}
+
+#sideBar{
+    background-color: aqua;
+
+}
+#sideBar ul{
+    list-style:circle;
+}
+
+#footer{   
+    padding: 1rem; 
+    background-color: pink;
+
+}
