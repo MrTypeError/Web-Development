@@ -1,0 +1,27 @@
+.container{
+    border: 5px solid black;
+
+}
+.row{
+    border: 2px solid red;
+
+}
+.pink{
+    background-color: pink;
+
+}
+.blue{
+    color: aliceblue;
+    background-color: rgb(62, 62, 179);
+
+}
+.orange{
+    background-color: orange;
+
+}
+.green{
+    background-color: lightgreen;
+}
+.cyan{
+    background-color: cyan;
+}
