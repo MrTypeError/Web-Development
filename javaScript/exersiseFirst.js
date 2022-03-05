@@ -4,12 +4,12 @@
 // discount
 // itemCode 
 
-// let newObj={
-//     itemName:"SmartPhone",
-//     price : 20000,
-//     discount:10,
-//     itemCode : "NO1",
-// }
+let newObj={
+    itemName:"SmartPhone",
+    price : 20000,
+    discount:10,
+    itemCode : "NO1",
+}
 
 // Factory Function
 function newObjF(item,priceArg,discount,itemcode){
@@ -34,4 +34,4 @@ function NewObj(item,priceArg,discount,itemcode){
     }
 }
 
-// let Mobile= new NewObj("Oneplus",25000,5,'MB2');
+const Mobile= new NewObj("Oneplus",25000,5,"MB2");
