@@ -33,5 +33,4 @@ function NewObj(item,priceArg,discount,itemcode){
         console.log("Thanks for Shopping");
     }
 }
-
 const Mobile= new NewObj("Oneplus",25000,5,"MB2");
