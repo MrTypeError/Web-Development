@@ -19,6 +19,7 @@ function newObjF(item,priceArg,discount,itemcode){
             discount:discount,
             itemCode :itemcode,
         }
+    }
 const Laptop=newObjF("Laptop",100000,20,"LP1");
 
 // Constructor Function
